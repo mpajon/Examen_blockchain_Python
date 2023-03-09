@@ -1,4 +1,4 @@
-# Ejercicio examen sobre la aplicación Python de blockchain
+# Examen sobre la aplicación Python de blockchain
 
 Sobre la práctica del sitio web simple que permitía a los usuarios compartir información mediante el uso de una blockchain que tenemos [aquí](https://github.com/mpajon/Ejercicio_Blockchain_Python).
 
