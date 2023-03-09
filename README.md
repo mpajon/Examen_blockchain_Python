@@ -5,13 +5,11 @@ Sobre la práctica del sitio web simple que permitía a los usuarios compartir i
 Vamos a hacer unos pequeños cambios y extensiones para comprobar que hemos entendido el ejercicio.
 
 ---
-# Ejercicio 1
+# Ejercicio 1: Añadir un nuevo nodo a la cadena
 ---
 En el ejercicio, se arranca un nodo en el puerto 8000 y otro en el puerto 8001 que se sincronizan y ambos nodos tienen la misma información en la cadena. 
 
-_¿Eres capaz de añadir un tercer nodo (en el puerto 8002) a la cadena que esté sincronizado con los otros dos?._
-
-Para ello deberias levantar el nodo y añadirlo a la cadena.
+Para ello deberias levantar la intefaz, el nodo 8000 y el nodo 8001. Además tienes que añadir el nodo 8001 a la cadena.
 
 Una vez hecho, mina 3 bloques con tu nombre y los textos:
 
@@ -19,19 +17,19 @@ Una vez hecho, mina 3 bloques con tu nombre y los textos:
  - "Se está terminando el curso de especialización".
  - "Me encanta la inteligencia artificial".
 
-> OJO: Son 3 bloques distitnos, no un bloque con 3 mensajes.
+> OJO: Son 3 bloques distintos, no un bloque con 3 mensajes.
 
 Con estos 3 bloques minados, haz 3 capturas de pantalla con:
 
- - La interfaz con los bloques que has minado.
+ - La interfaz con los bloques que has minado:
 
 ![](./screenshots/01.png)
 
- - La información de los bloques en el nodo del puerto 8000 (tiene que verse el comando que has lanzado).
+ - La información de los bloques en el nodo del puerto 8000 (tiene que verse el comando que has lanzado):
 
 ![](./screenshots/02.png)
 
- - La información de los bloques en el nodo del puerto 8001 (tiene que verse el comando que has lanzado).
+ - La información de los bloques en el nodo del puerto 8001 (tiene que verse el comando que has lanzado):
 
 ![](./screenshots/03.png)
 
@@ -48,7 +46,7 @@ El resultado debería ser el mismo en los 3 nodos.
 Puntuación: 0,50
 
 ---
-# Ejercicio 2
+# Ejercicio 2: Aumenta la dificultad de la prueba de trabajo.
 ---
 
 La dificultad de la prueba de trabajo que estamos usando está fijada en 3, es decir, los hash de los bloques comienzan por 3 ceros.
